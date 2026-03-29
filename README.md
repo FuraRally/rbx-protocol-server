@@ -127,7 +127,7 @@ pulse=s1;s2;timestamp;00|btUp=s1;s2|\n
 
 ---
 
-## 🧩 API
+## API
 
 ### Enums
 
