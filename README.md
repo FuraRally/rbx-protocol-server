@@ -28,7 +28,7 @@ This project is intended for **interoperability, research, and educational purpo
 Run the following command in the project's root directory:
 
 ```bash
-idf.py add-dependency --git https://github.com/yourname/rbx-proto-server.git
+idf.py add-dependency --git https://github.com/FuraRally/rbx-protocol-server.git
 ```
 
 Or add it as a dependency to the project's `idf_component.yml` file:
@@ -38,15 +38,15 @@ dependencies:
   idf:
     version: '>=5.0.0'
   # New dependency
-  rbx-proto-server:
-    git: https://github.com/yourname/rbx-proto-server.git
+  rbx-protocol-server:
+    git: https://github.com/FuraRally/rbx-protocol-server.git
 ```
 
 Or add it to your project by cloning the repository into the `components` directory:
 
 ```bash
 cd components
-git clone https://github.com/yourname/rbx-proto-server.git
+git clone https://github.com/FuraRally/rbx-protocol-server.git
 ```
 
 ---
