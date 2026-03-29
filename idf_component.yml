@@ -1,0 +1,7 @@
+version: 1.0.0
+description: Lightweight TCP server for ESP-IDF implementing a reverse-engineered protocol compatible with Rabbit 2.0 app.
+repository: https://github.com/FuraRally/rbx-protocol-server.git
+url: https://github.com/FuraRally/rbx-protocol-server
+dependencies:
+  idf:
+    version: '>=5.0.0'
