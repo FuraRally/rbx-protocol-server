@@ -1,0 +1,27 @@
+menu "RBX Server"
+
+config RBX_SERVER_PORT
+  int "RBX Server Port"
+  default 11912
+  help
+    Port that the RBX Server will listen on for incoming connections.
+
+config RBX_SERVER_MAX_CONNECTIONS
+  int "RBX Server Max Connections"
+  default 4
+  help
+    Maximum number of concurrent connections that the RBX Server will allow.
+
+config RBX_SERVER_QUEUE_SIZE
+  int "RBX Server Queue Size"
+  default 32
+  help
+    Size of the queue for outgoing messages in the RBX Server.
+
+config RBX_SERVER_QUEUE_FLUSH_INTERVAL
+  int "RBX Server Queue Flush Interval (ms)"
+  default 100
+  help
+    Interval in milliseconds at which the RBX Server will flush the outgoing message queue.
+
+endmenu

@@ -186,10 +186,10 @@ See `LICENSE` file for details.
 
 ## Future Improvements
 
-* Configurable port
-* Configurable maximum number of clients
-* Support to send multiple messages in the same frame
-* Send `lap` event automatically when sending a `ckm` event, to avoid the user having to send both events.
+- [x] Support to send multiple messages in the same frame
+- [ ] Configurable port
+- [ ] Configurable maximum number of clients
+- [ ] Send `lap` event automatically when sending a `ckm` event, to avoid the user having to send both events.
 
 ---
 

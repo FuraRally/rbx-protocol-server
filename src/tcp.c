@@ -14,8 +14,8 @@
 
 #include "tcp.h"
 
-#define MAX_TCP_CONNECTIONS 4
-#define PORT                11912
+#define MAX_TCP_CONNECTIONS CONFIG_RBX_SERVER_MAX_CONNECTIONS
+#define PORT                CONFIG_RBX_SERVER_PORT
 #define KEEPALIVE_IDLE      60
 #define KEEPALIVE_INTERVAL  10
 #define KEEPALIVE_COUNT     5
