@@ -1,5 +1,11 @@
 # RBX Protocol Server (ESP-IDF)
 
+> [!WARNING]
+> **Deprecated.** This component is no longer maintained. Use **[rbx-protocol](https://github.com/FuraRally/rbx-protocol)**
+> instead. It implements the full protocol on both sides: box server and client, pilot-screen client and server, TCP and
+> UDP, and a box server that also receives the Rabbit app's computed data. Its README has a migration table from
+> `rb.h` (`rb_start`, `rb_send_frame`, `RB_FRAME_*`).
+
 Lightweight TCP server component for ESP-IDF that implements a reverse-engineered protocol compatible with the Rabbit 2.0 mobile application.
 
 ## Disclaimer
